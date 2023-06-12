@@ -1,0 +1,653 @@
+@media all and (min-width:1400px){
+    h1 {
+        font-size: 71px;
+        
+    }
+    .header_area {
+        
+        background-size: 68% auto;
+    }
+    .benner_area p {
+         
+        font-size: 23px;
+    }
+    .features_item p {
+        font-size: 22px;
+         
+    }
+    .platform p {
+        font-size: 22px;
+         
+    }
+    .platform h2 {
+        font-size: 49px;
+         
+    }
+    .create-text p {
+        font-size: 21px;
+        max-width: 573px;
+        
+    }
+    .basic .basic_text ul li {
+         
+        font-size: 20px;
+         
+    }
+    .simple_box p {
+        margin-bottom: 20px;
+        font-size: 21px;
+    }
+    .simple_box h3 {
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 51px;
+         
+    }
+    .blog_boxs .blog_text h2 {
+        font-size: 40px;
+         
+    }
+    .blog_boxs .blog_text p {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .footer_text-1 p {
+        font-size: 22px;
+        max-width: 390px;
+    }
+    .footer_text-1 .footer_email a, .footer_phone a {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 0px;
+    }
+    .pages h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--SecondaryColor2);
+        margin-bottom: 20px;
+    }
+    .pages ul li a {
+         
+        font-size: 20px;
+        
+    }
+    h3 {
+        font-size: 31px;
+         
+    }
+    .downlod_area p {
+        font-size: 20px;
+    }
+    .developer_noties p{
+   
+        font-size: 22px;
+      }
+
+}
+@media all and (max-width:1199px){
+    .menu ul li a {
+        
+        margin: 15px 15px;
+         
+         
+    }
+    .header_area {
+        
+        background: url('../images/Background.svg') no-repeat scroll top right / contain;
+        background-size: 75% auto;
+    }
+     /* about area responsive  */
+     .About_header .menu ul li a {
+         
+        margin: 15px 15px;
+         
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media all and (max-width:1199px){
+    .basic .basic_month .section_btn {
+        font-size: 18px;
+         
+    }
+    .downlod_area {
+         
+        margin-bottom: 30px;
+    }
+    .value_text p {
+        max-width: 650px;
+    }
+    .join_area {
+        padding: 50px 0;
+    }
+    .blog-button .btn-1 {
+        margin-right: 10px;
+        padding: 10px 20px;
+    }
+    .blog_boxs .blog_text h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+     
+}
+@media all and (max-width:1130px){
+    .menu ul li a {
+        margin: 15px 12px;
+    }
+}
+ 
+@media all and (max-width:991px){
+    .menu {
+        background-color:var(--SecondaryColor1);
+         
+    }
+    .menu-header-container .d-flex {
+	    flex-direction: column !important;
+    }
+    /* .menu > ul > li > a{
+        color: var(--primaryColor1) !important;
+    } */
+    .menu ul li a {
+	color: var(--primaryColor1);
+    }
+    .menu ul li a:hover{
+        color: var(--primaryColor2);
+    }
+    .logo .menu-icon .btn-2{
+        display: block;
+      }
+    .menu-button{
+        display: none;
+
+    }
+    .logo{
+        margin-bottom: 15px;
+    }
+    .menu > ul {
+        flex-direction: column;
+        display: flex;
+         
+    }
+    .menu{
+        width: 100%;
+        display: none;
+    }
+    .menus {
+        position: absolute;
+        width: 70%;
+        left: 0;
+        right: 0;
+        margin: auto; 
+        z-index: 99;
+    
+    }
+    .logo .menu-icon .menu-icon1{
+         
+        display: block;
+    }
+    
+    .header_area {
+        background: none;
+    }
+    .bennar_conteat {
+        margin-bottom: 20px;
+    }
+    h1 {
+        font-size: 50px;
+        
+    }
+    .btn-2,.btn-3{
+        font-size: 16px;
+    }
+    .benner_area {
+        margin-top: 50px;
+    }
+    .header_area {
+        margin-top: 15px;
+        padding-top: 10px;
+        
+    }
+     
+    .section_btn {
+         
+        padding: 15px 25px;
+        font-size: 16px;
+        font-weight: 700;
+        
+    }
+    h2{
+        font-size: 40px;
+    }
+    .section_padding {
+        padding-bottom: 50px;
+    }
+    .features_item {
+        
+        margin-bottom: 20px;
+    }
+    .smarter-item {
+        padding: 20px 10px;
+         
+    }
+    .smarter-item h3 {
+        font-size: 16px;
+         
+    }
+    .create h3 {
+        font-size: 22px;
+        
+    }
+    .basic .basic_heading h2 {
+        font-size: 25px;
+         
+    }
+
+    .plaform_area {
+        padding: 0px 0px;
+        background: none ;
+    }
+    .create-text p {
+        font-size: 16px;
+        
+        margin-bottom:20px;
+    }
+    .simple_box h2 {
+         
+        font-size: 40px;
+    }
+    .simple_box {
+        margin-bottom: 30px;
+    }
+    .trial_text {
+        margin-bottom: 30px;
+    }
+    .blog_boxs .blog_text h2 {
+        font-size: 30px;
+         
+    }
+
+    .footer_text-1 p {
+        font-size: 21px;
+        max-width: 600px;
+    }
+    .downlod_area {
+         
+        margin-bottom: 30px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+    .footer-icon {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .copyright {
+         
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* about css responsiv */
+    .about_features h2 {
+        font-size: 50px;
+         
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .counter-text p {
+        font-size: 16px;
+    }
+    .Our_values .features-heading .features_text h2 {
+        font-size: 30px;
+    }
+    .join_area .join_heading h3 {
+        font-size: 30px;
+         
+    }
+    .join_area .web-desgn p {
+        font-size: 19px;
+    }
+    .join_area .web-desgn ul li a {
+         
+        font-size: 16px;
+    }
+    .join_area .join_heading .btn-1 {
+       
+        font-size: 16px;
+    }
+    .About_header {
+        margin-top: 15px;
+        padding-top: 10px;
+    }
+    .Mission h2 {
+        font-size: 30px;
+    }
+    .footer-padding {
+        padding: 40px 0;
+        
+    }
+    .article_area .article_heading .article_text h2 {
+        font-size: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .article_area .article_heading .article_text {
+        max-width: 450px;
+        
+    }
+    /* facebook css responsive */
+    .facebook_area .features-heading .features_text {
+        max-width: 484px;
+    }
+    .social_text h2 {
+        font-size: 50px;
+    }
+    .facebook_area .facebook_about .facebook_heading h2 {
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    /* featrues css responcive */
+    .featur_heading_area .features-heading .features_text h2 {
+        font-size: 60px;
+    }
+    .featur_heading_area {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .features-bottom {
+         
+        padding-bottom: 50px;
+    }
+
+    /* integrations css responcive */
+    .featur_heading_area .features-heading .features_text h2 {
+        font-size: 60px;
+    }
+    /* marketing css responcive */
+    .marketing_head .market_text1 h2 {
+        font-size: 50px;
+         
+    }
+    .market_text1 {
+        margin-bottom: 30px;
+    }
+    .marketing_discription .marketing_box h2 {
+        font-size: 30px;
+         
+    }
+    .marketing_discription .marketing_box .marketing_box2 h3 {
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 15px;
+    }
+    .marketing_discription .marketing_box5 h3 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* careers css tesponcive */
+    .careers-img {
+         
+        margin-bottom: 20px;
+    }
+    /* web css responcive */
+    .developer_area .features-heading .features_text1 h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .developer_noties .developer_date h2, .developer_noties .developer-text2 h2  {
+        font-size: 30px;
+    }
+    /* contact css responcive */
+    .contact-right {
+        margin-bottom: 20px;
+    }
+    .contact_head .contact-text h2 {
+        font-size: 55px;
+         
+    }
+
+    /* password css responcive */
+    .password_features .features_text h2 {
+        font-size: 60px;
+    }
+    .features_text .password-text h3 {
+        font-size: 40px;
+        
+    }
+    /* advance  */
+    .advance-right h2 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    /* licenses css responcive */
+    .licenses_features .features_text h2 {
+        font-size: 60px;
+    }
+     
+} 
+
+
+@media all and (min-width:990px){
+    .menu{
+        display: block !important;
+    }
+}
+
+@media all and (max-width:990px){
+
+}
+
+@media all and (max-width:768px){
+    .smarter-item {
+         
+        margin-bottom: 10px;
+    }
+    .btn-over {
+         
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+    
+    .basic {
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .simple_box {
+        margin-bottom: 30px;
+    }
+    .trial_text {
+        margin-bottom: 30px;
+    }
+    .trial_area {
+        padding: 50px 0;
+        
+    }
+    .simple_area {
+        padding: 50px 0;
+    }
+    .footer_text-1 p {
+        font-size: 21px;
+        max-width: 500px;
+    }
+    /* about css responsiv */
+    .about-img {
+        margin-bottom: 20px;
+    }
+    .counter-box {
+        
+        flex-direction: column;
+         
+    }
+    .counter-text {
+        margin-bottom: 20px;
+    }
+    .Our_values {
+        padding: 50px 0;
+         
+    }
+    /* facebook css responcive */
+    .facebook_headers {
+        padding-bottom: 50px;
+    }
+    .facebook_padding {
+        padding: 50px 0;
+         
+    }
+    .facebook_area .facebook_about .facebook_heading h2 {
+         
+        font-size: 30px;
+    }
+    .facebook_area .facebook_about .facebook_button a {
+         
+        font-size: 16px;
+        padding: 18px 25px;
+         
+    }
+    /* marketing css responcive */
+    .marketing_discription .marketing_box4 .quet_text1 p {
+         
+        font-size: 18px;
+    }
+    .not-found {
+        padding: 60px 0;
+    }
+}
+
+@media all and (max-width:575px){
+    p{
+        font-size: 16px;
+    }
+    .blog-button .btn-1 {
+        margin-right: 10px;
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+
+    /* about css responsive */
+    .value_item {
+         
+        flex-direction: column;
+        text-align: center;
+    }
+    .value_item .img {
+        
+        margin-bottom: 20px;
+    }
+    /* marketing css responcive */
+    .marketing_discription .marketing_box4 .quet_text {
+         background: none;
+         
+    }
+    .marketing_discription .marketing_box4 .quet_text h2 {
+         
+        color: var(--primaryColor1);
+         
+    }
+    .password_features .password-text input {
+         
+        padding: 10px 20px;
+        font-size: 16px;
+         
+    }
+    .password_features .features_text h2 {
+        font-size: 50px;
+    }
+    .features_text .password-text h3 {
+        font-size: 30px;
+    }
+
+}
+
+@media all and (max-width:450px){
+    .password_features .password-text {
+        padding: 40px 20px;
+        background: var(--SecondaryColor1);
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+}
+@media all and (max-width:400px){
+    .bennar_conteat ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+         
+    }
+    .bennar_conteat ul li{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .bennar_conteat ul li a {
+        /* display: inline-block !important; */
+        width: 180px;
+        margin: auto;
+        text-align: center;
+    }
+    .logo {
+         
+        flex-direction: column;
+    }
+    .logo .menu-icon {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .blog-button{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .blog-button .btn-1 {
+        margin-right: 0;
+         
+        margin-bottom: 10px;
+    }
+    .blog-button {
+        
+        
+        left: 24px;
+        top: 160px;
+    }
+    .marketing_discription .marketing_box4 .quet_text {
+         display: none;
+    }
+    .features_text .password-text .btn-2 {
+         
+        padding: 12px 25px;
+    }
+    .subsribe-form form {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .subsribe-form form input[type="email"]{
+        margin-bottom: 20px;
+        width:100%;
+        outline: none;
+    }
+    .change-update {
+        margin-top: 10px;
+    }
+
+}
