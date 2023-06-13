@@ -52,6 +52,20 @@ function saasup_theme_support()
         'menu_position'=>5,
         'menu_icon'=> 'dashicons-spotify'
     ));
+    // Register Job Post Type 
+    register_post_type('social', array(
+        'labels'=>array(
+            'name'=>'Intergrations Social Icon',
+            'add_new'=>'Add New Job Post',
+            'add_new_item'=>'Add New Item',
+            'all_items'=>'View All',
+            'edit_item'=>'Edit Post'
+        ),
+        'public' => true,
+        'supports' => array('title'),
+        'menu_position'=>5,
+        'menu_icon'=> 'dashicons-spotify'
+    ));
 };
 add_action('after_setup_theme', 'saasup_theme_support');
 

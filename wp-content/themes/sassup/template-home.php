@@ -257,7 +257,7 @@ $get_options = get_option('saasup')
                       endif; ?>
                     </ul>
 
-                    <a href="<?php the_field('button_url') ?>" class="btn-1"><?php the_field('p_button') ?></a>
+                    <a href="<?php the_permalink() ?>" class="btn-1"><?php the_field('p_button') ?></a>
                   </div>
 
                 </div>
@@ -275,11 +275,12 @@ $get_options = get_option('saasup')
       <div class="row trial_bg align-items-center">
         <div class="col-lg-6">
           <div class="trial_text">
-            <h2><?php the_field('trial_heading') ?></h2>
-            <p><?php the_field('trial_description') ?></p>
+            <h2><?php echo $get_options['trial-heading'] ?></h2>
+            <p><?php echo $get_options['trial-description'] ?></p>
             <div class="subsribe-form">
               <?php
-              if (get_field('trial_email_shortcode') == '') :
+              $shortCode = $get_options['trial-email-box'];
+              if ($shortCode == '') :
               ?>
                 <form action="#">
                   <input type="email" placeholder="your mail here...">
@@ -290,10 +291,9 @@ $get_options = get_option('saasup')
               <?php endif; ?>
             </div>
           </div>
-
         </div>
         <div class="col-lg-6">
-          <img src="<?php the_field('trial_right_image') ?>" loading="lazy" alt="trial-img">
+          <img src="<?php echo $get_options['trial-right-image']['url'] ?>" loading="lazy" alt="trial-img">
         </div>
 
       </div>

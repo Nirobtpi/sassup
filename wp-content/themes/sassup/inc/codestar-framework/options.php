@@ -226,4 +226,36 @@ if (class_exists('CSF')) {
             )
         )
     ));
+    CSF::createSection($prefix, array(
+        'title' => 'Trial Section',
+        'parent' => 'home-page-options',
+        'id' => 'trial-section',
+        'fields' => array(
+            array(
+                'title' => 'Trial Heading',
+                'id' => 'trial-heading',
+                'type' => 'text',
+                'default' => 'Start your free trial today'
+            ),
+            array(
+                'title' => 'Trial Description',
+                'id' => 'trial-description',
+                'type' => 'textarea',
+                'default' => 'It is a long established fact that a reader will be by the readable when looking at it layout.'
+            ),
+            array(
+                'title' => 'Trial Email Box',
+                'id' => 'trial-email-box',
+                'type' => 'text',
+            ),
+            array(
+                'title' => 'Trial Right Image',
+                'id' => 'trial-right-image',
+                'type' => 'media',
+                'default' => array(
+                    'url' => get_template_directory_uri() . '/assets/images/trial-img/trial-img.png'
+                )
+            ),
+        )
+    ));
 };

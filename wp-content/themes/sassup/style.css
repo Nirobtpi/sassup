@@ -66,3 +66,6 @@ Text Domain:sassup
 	height: 400px;
 	object-fit: cover;
 }
+.fa-circle-xmark {
+	color: #ddd !important;
+}

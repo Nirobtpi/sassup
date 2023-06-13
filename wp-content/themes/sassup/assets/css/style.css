@@ -130,7 +130,7 @@ p{
 
 }
 .section_padding{
-  padding-bottom: 100px;
+  padding: 100px;
 }
   /*****************************/
  /********* 1. Heder Area *****/
@@ -1285,16 +1285,17 @@ p{
 .facebook_area .facebook_about .facebook_heading p{
   margin-bottom: 20px;
 }
-.facebook_area .facebook_about .facebook_img{
-  margin-bottom: 20px;
+.facebook_area .facebook_about p img{
+  margin-bottom: 20px !important;
+    border-radius: 30px !important;
 }
-.facebook_area .facebook_about .facebook_img img{
+/* .facebook_area .facebook_about .facebook_img img{
   margin-bottom: 40px;
   border-radius: 30px;
-}
-.facebook_area .facebook_about .facebook_button h3{
+} */
+/* .facebook_area .facebook_about .facebook_button h3{
   margin-bottom: 20px;
-}
+} */
 .facebook_area .facebook_about .facebook_button p{
   margin-bottom: 40px;
 }

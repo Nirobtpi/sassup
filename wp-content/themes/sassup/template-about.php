@@ -134,8 +134,8 @@ get_header()
                 <li><a href="#"><?php the_field('company_name') ?></a></li>
                 <li><a href="#" class="web-link"><?php the_field('job_time') ?></a></li>
               </ul>
-              <?php the_field('job_descriptions') ?>
-              <a href="#" class="btn-2"><?php the_field('button_text') ?></a>
+              <p><?php the_field('job_descriptions') ?></p>
+              <a href="<?php the_permalink() ?>" class="btn-2"><?php the_field('button_text') ?></a>
             </div>
           <?php endwhile;
           wp_reset_postdata() ?>
