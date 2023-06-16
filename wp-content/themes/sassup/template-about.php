@@ -44,17 +44,18 @@ get_header()
         <div class="col-12">
           <div class="counter-box d-flex justify-content-between text-center">
             <?php
+            $i=1;
             if (have_rows('counter_repeater')) :
               while (have_rows('counter_repeater')) : the_row();
             ?>
                 <div class="counter-text text-center">
                   <div class="counter-h text-center">
-                    <h2 class="counter1"><?php echo  get_sub_field('count_number') ?> </h2>
+                    <h2 class="counter<?php echo $i; ?>"><?php echo  get_sub_field('count_number') ?> </h2>
                     <h2 class="ck"><?php the_sub_field('counter_text') ?></h2>
                   </div>
                   <p><?php the_sub_field('client_say') ?></p>
                 </div>
-            <?php endwhile;
+            <?php $i++; endwhile;
             endif; ?>
           </div>
         </div>

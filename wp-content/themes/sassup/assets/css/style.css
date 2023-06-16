@@ -1795,7 +1795,7 @@ align-items: center;
 
 }
 .contact-icon p{
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
   color: var(--primaryColor2);
   margin-left: 10px;
   font-size: 20px;
@@ -1886,7 +1886,7 @@ align-items: center;
   margin-bottom: 10px;
 }
 .hearts_area .location p{
-  line-height: 100%;
+  line-height: 35px;
 }
 .hearts_area .location .location-icon{
   display: inline-block;

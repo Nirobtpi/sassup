@@ -40,31 +40,31 @@ function saasup_theme_support()
     ));
     // Register Job Post Type 
     register_post_type('jobs', array(
-        'labels'=>array(
-            'name'=>'Job Post',
-            'add_new'=>'Add New Job Post',
-            'add_new_item'=>'Add New Job Item',
-            'all_items'=>'View All Job',
-            'edit_item'=>'Edit Job Post'
+        'labels' => array(
+            'name' => 'Job Post',
+            'add_new' => 'Add New Job Post',
+            'add_new_item' => 'Add New Job Item',
+            'all_items' => 'View All Job',
+            'edit_item' => 'Edit Job Post'
         ),
         'public' => true,
         'supports' => array('title'),
-        'menu_position'=>5,
-        'menu_icon'=> 'dashicons-spotify'
+        'menu_position' => 5,
+        'menu_icon' => 'dashicons-spotify'
     ));
     // Register Job Post Type 
     register_post_type('social', array(
-        'labels'=>array(
-            'name'=>'Intergrations Social Icon',
-            'add_new'=>'Add New Job Post',
-            'add_new_item'=>'Add New Item',
-            'all_items'=>'View All',
-            'edit_item'=>'Edit Post'
+        'labels' => array(
+            'name' => 'Intergrations Social Icon',
+            'add_new' => 'Add New Job Post',
+            'add_new_item' => 'Add New Item',
+            'all_items' => 'View All',
+            'edit_item' => 'Edit Post'
         ),
         'public' => true,
         'supports' => array('title'),
-        'menu_position'=>5,
-        'menu_icon'=> 'dashicons-spotify'
+        'menu_position' => 5,
+        'menu_icon' => 'dashicons-spotify'
     ));
 };
 add_action('after_setup_theme', 'saasup_theme_support');
@@ -164,3 +164,5 @@ add_action('after_setup_theme', 'register_navwalker');
 require_once('inc/codestar-framework/codestar-framework.php');
 // require_once('inc/codestar-framework/samples/admin-options.php');
 require_once('inc/codestar-framework/options.php');
+// Short Code Area functions 
+require_once('inc/shortcodes/shortcodes.php');
